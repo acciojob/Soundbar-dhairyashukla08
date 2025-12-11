@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #7d4ba7; /* A deep purple color matching the screenshot */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#buttons {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.btn {
+   
+    background-color: #6a3c9a; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: lowercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+.btn:hover {
+    background-color: #7949a8; 
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.stop{
+	
+}
